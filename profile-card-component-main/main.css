@@ -34,12 +34,12 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 75vh;
-  width: 330px;
+  height: 77vh;
+  width: 310px;
   
 }
 .card-top{
-  height: 8rem;
+  height: 9rem;
   width: 100%;
   background-image: url('images/bg-pattern-card.svg');
   border-radius: 1rem 1rem 0 0;
