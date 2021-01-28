@@ -1,0 +1,159 @@
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+body{
+    padding: 5rem 2rem;
+    font-family: Spartan, sans-serif;
+    background-image: url('/images/bg-pattern-top-mobile.svg'), url('/images/bg-pattern-bottom-mobile.svg');
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+}
+
+.description h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color:hsl(300, 43%, 22%);
+    margin-bottom: 2rem;
+}
+
+.description p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.3rem;
+    text-align:center;
+    margin-bottom: 3rem;
+    color:hsl(303, 10%, 53%);
+}
+
+.stars{
+    letter-spacing: 5px;
+    margin-bottom: 1rem;
+    
+}
+
+.rating{
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    font-weight: 700;
+    color:hsl(300, 43%, 22%);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+
+}
+
+.review{
+    background-color: hsl(300, 43%, 22%);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 2rem 2rem;
+}
+
+.review-colton{
+    margin-top: 3rem;
+}
+
+.portrait{
+    float: left;
+    border-radius: 50%;
+    margin-right: 1rem;
+    transform: scale(0.8);
+}
+
+.review h3{
+    color:hsl(0, 0%, 100%);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}   
+.review h4{
+    color: hsl(333, 80%, 67%);
+    margin-bottom: 3rem;
+}
+
+.review p{
+    color: hsl(300, 24%, 96%);
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+.review-anne{
+    margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 1075px){
+    body{
+        background-image: url('/images/bg-pattern-top-desktop.svg'), url('/images/bg-pattern-bottom-desktop.svg');
+        padding: 7rem 7rem;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+    .description{
+        width: 35%;
+    }
+    .description h1{
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .description p{
+        text-align: left;
+    }
+
+    .stars{
+        display: inline;
+    }
+    
+    .stars{
+        letter-spacing: 5px;
+        margin-bottom: 1rem;
+        margin-right: 1.5rem;
+        
+    }
+    .ratings{
+        position: relative;
+    }
+    .rating{
+        text-align: left;
+        padding: 1.5rem 3rem;
+    
+    }
+    .rating-reviews{
+        position: relative;
+        left: -100px;
+    }
+    .rating-report-guru{
+        position: relative;
+        left:-50px;
+    }
+
+    .reviews{
+        position: relative;
+    }
+    .review-colton{
+        margin-top: 0;
+
+    }
+    .review{
+        width: 31%;
+        height: 45vh;
+    }
+
+    .review-irene{
+        position: relative;
+        top: 25px;
+    }
+    
+    .review-anne{
+        position: relative;
+        top:50px;
+    }
+
+}
