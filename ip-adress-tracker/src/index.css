@@ -171,7 +171,7 @@ margin-top: 2rem;
   }
 
   input[type=text]::placeholder{
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .info-container{
@@ -179,7 +179,7 @@ margin-top: 2rem;
     align-items: center;
     justify-content: space-between;
     top:167px;
-    height:294px;
+    height:260px;
     padding: 1rem;
   }
 
@@ -196,7 +196,7 @@ margin-top: 2rem;
     text-align: center;
     letter-spacing: 1.45833px;
     text-transform: uppercase;
-    margin: .4rem 0;
+    margin:0;
   }
   .info-container p{
     font-family: Rubik;
@@ -206,5 +206,6 @@ margin-top: 2rem;
     line-height: 24px;
     text-align: center;
     letter-spacing: -0.178571px;
+    margin: .4rem 0;
   }
 }

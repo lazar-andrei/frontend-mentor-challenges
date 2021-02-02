@@ -67,9 +67,9 @@ class App extends React.Component{
     return(
       <div className="app-container">
         <div className="header">
-          <h1>IP Adress Tracker</h1>
+          <h1>IP Address Tracker</h1>
           <form onSubmit={this.getIpInfo}>
-           <input type='text' onChange={this.changeIp} value={this.state.ipInput} placeholder="Search for any IP address or domain"></input>
+            <input type='text' onChange={this.changeIp} name="input" value={this.state.ipInput} placeholder="Search for any IP address or domain"></input>
            <button type='submit' className="submit" value=""><img src={arrow} alt="arrow"></img></button>
           </form>
           
